@@ -15,7 +15,7 @@ data class Employee(val name: String, val salary : Double) {
     }
 
     override fun toString(): String {
-        return "Employee(name='$name', salary=$salary, id=$id)"
+        return "Employee name: $name, salary: $salary "
     }
 
 
